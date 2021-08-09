@@ -21,6 +21,13 @@
         <div class="page-header__container">
             <nav class="main-nav">
                 <a class="page-header__logo" href="./index.html">Web<span class="page-header__text">Studio</span></a>
+                <button type="button" class="page-header__button" aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
+                    <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                        <use class="icon-cross" href="./images/menu.svg#icon-close_40px"></use>
+                        <use class="icon-menu" href="./images/menu.svg#icon-menu_40px"></use>
+                    </svg>
+                </button>
                 <ul class="site-nav">
                     <li class="site-nav__item"><a href="" class="site-nav__link--current">Студия</a></li>
                     <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
@@ -483,9 +490,7 @@
                 </form>
             </div>
         </div>
-
-
     </footer>
-
     <script src="./JS/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>

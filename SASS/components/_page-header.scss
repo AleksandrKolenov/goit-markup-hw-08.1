@@ -1,6 +1,20 @@
 .page-header {
-        border-bottom: 1px solid rgb(236, 236, 236);
+    position: relative;
+    border-bottom: 1px solid rgb(236, 236, 236);
         }
+        .page-header__button {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    border: none;
+    background-color: transparent;
+    z-index: 1;
+    // @media screen and (min-width: 768px) {
+    //   display: none;
+    // }
+}
 li {
     list-style-type: none;
 }
