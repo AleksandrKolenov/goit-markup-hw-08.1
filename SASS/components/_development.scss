@@ -1,6 +1,9 @@
 .development {
-    padding-top: 0px;
+    display: none;
     padding-bottom: 94px;
+    @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 .development__container {
     margin-left: auto;
